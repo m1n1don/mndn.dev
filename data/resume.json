@@ -1,0 +1,161 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Çağlar Turalı",
+    "label": "Web Developer",
+    "image": "https://avatars.githubusercontent.com/u/23704367?v=4",
+    "email": "caglarturali@pm.me",
+    "phone": "",
+    "url": "https://turali.js.org",
+    "summary": "I'm a software developer with a solid mix of self-driven learning and formal training, along with a few years of hands-on professional experience. I've worked on projects in web development, mobile apps, game creation, and VR, with a recent focus on mastering Java and its ecosystem. I enjoy diving deep into the core of the languages, beyond just using the latest tools. My approach is grounded in practical coding and finding creative solutions to technical challenges.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Ankara",
+      "countryCode": "TR",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "caglarturali",
+        "url": "https://github.com/caglarturali"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "caglarturali",
+        "url": "https://linkedin.com/in/caglarturali"
+      },
+      {
+        "network": "FrontendMasters",
+        "username": "caglarturali",
+        "url": "https://frontendmasters.com/u/caglarturali"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Metakod",
+      "location": "Ankara, TR",
+      "description": "ERP consultancy company",
+      "position": "Software Developer",
+      "url": "https://metakod.com.tr",
+      "startDate": "2021-03-01",
+      "endDate": "2024-01-01",
+      "summary": "Metakod is a software consultancy company that specializes in Odoo, an open-source ERP solution.",
+      "highlights": [
+        "Built custom Odoo modules from the ground up",
+        "Created mobile apps that seamlessly interface with the modules",
+        "Designed PDF reports for various purposes, ranging from product labels to sales reports"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Kirikkale University",
+      "url": "https://kku.edu.tr",
+      "area": "Computer Education and Instructional Technology",
+      "studyType": "Bachelor",
+      "startDate": "2010-09-01",
+      "endDate": "2017-09-01",
+      "score": "",
+      "courses": [
+        "Programming Languages",
+        "Computer Hardware",
+        "Operating Systems and Applications",
+        "Computer Networks and Communication",
+        "Database Management Systems",
+        "Web Programming",
+        "Web Design",
+        "Project Development and Management"
+      ]
+    },
+    {
+      "institution": "Kirikkale University",
+      "url": "https://kku.edu.tr",
+      "area": "Physics",
+      "studyType": "[Dropout]",
+      "startDate": "2008-09-01",
+      "endDate": "2010-06-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Object Oriented Programming Specialization",
+      "date": "2024-01-26",
+      "issuer": "Coursera | University of London",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/BPFTR4EGP4Q9"
+    },
+    {
+      "name": "C Programming with Linux Specialization",
+      "date": "2023-11-19",
+      "issuer": "Coursera | Dartmouth College",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/L8CKJD6GSBJC"
+    },
+    {
+      "name": "Full-Stack Web Development with React Specialization",
+      "date": "2019-03-23",
+      "issuer": "Coursera | The Hong Kong University of Science and Technology",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/XGPU5C68VAEE"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Experienced",
+      "keywords": ["Python", "JavaScript", "TypeScript"]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Experienced",
+      "keywords": ["React Native", "Flutter"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Turkish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Psychology",
+      "keywords": []
+    },
+    {
+      "name": "Popular Science",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "this",
+      "description": "JSON Resume–compatible personal website",
+      "highlights": [
+        "Built using React, TypeScript and, Tailwind CSS",
+        "Features a mobile– and print friendly layout"
+      ],
+      "keywords": ["JSON Resume", "React", "Tailwind CSS"],
+      "startDate": "2024-09-25",
+      "endDate": "",
+      "url": "https://turali.js.org",
+      "roles": ["Developer", "Designer"],
+      "entity": "",
+      "type": "application"
+    }
+  ]
+}
