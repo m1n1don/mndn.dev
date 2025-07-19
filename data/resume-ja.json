@@ -1,0 +1,128 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "みにどん / minibit4",
+    "label": "フルスタック勤労学生",
+    "image": "https://avatars.githubusercontent.com/u/48941476?v=4",
+    "email": "here@mndn.dev",
+    "phone": "",
+    "url": "https://mndn.dev",
+    "summary": "18歳です。高校生してます。システム開発やサーバー構築・運用・保守をメインに行っています。自宅サーバーとかやってたりしますが、最近はAWSを中心にクラウドと遊んでます。",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "静岡",
+      "countryCode": "日本",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "minibit4",
+        "url": "https://github.com/minibit4"
+      },
+      {
+        "network": "Twitter",
+        "username": "m1n1don",
+        "url": "https://x.com/m1n1don"
+      },
+      {
+        "network": "YouTube",
+        "username": "みにどん",
+        "url": "https://www.youtube.com/@m1n1don"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Virginia Commonwealth University (Computer Science Dept.）",
+      "location": "Richmond, Virginia, US",
+      "description": "ERP consultancy company",
+      "position": "研究インターン",
+      "url": "https://egr.vcu.edu/departments/computer/",
+      "startDate": "2025-04-14",
+      "endDate": "2025-05-14",
+      "summary": "「リアルタイム3D仮想空間での暗号構造解析と手術的復号化」に関する研究を行っていました。",
+      "highlights": [
+        "MR空間上での暗号化されたデータのビジュアライゼーション",
+        "手術のように直感的な操作による復号化"
+      ]
+    },
+    {
+      "name": "Seriolab Japan（鰤研JP）",
+      "location": "日本",
+      "description": "ERP consultancy company",
+      "position": "オーナー兼エンジニア",
+      "url": "https://www.seriolab.jp/",
+      "startDate": "2024-03-01",
+      "summary": "現在は学業に専念するため活動を休止しております。",
+      "highlights": ["サーバーホスティング事業", "受託開発事業"]
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "プログラミング",
+      "keywords": [
+        "Web",
+        "Minecraftプラグイン",
+        "Discordボット",
+        "システム開発"
+      ]
+    },
+    {
+      "name": "サーバー構築・運用・保守",
+      "keywords": ["Linux", "ラックサーバー", "ネットワーク", "セキュリティ"]
+    },
+    {
+      "name": "楽器",
+      "keywords": ["ピアノ", "サクソフォン"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "日本語",
+      "fluency": "母国語"
+    },
+    {
+      "language": "英語",
+      "fluency": "精進します"
+    },
+    {
+      "language": "フランス語",
+      "fluency": "趣味"
+    }
+  ],
+  "interests": [
+    {
+      "name": "コンピュータサイエンス",
+      "keywords": []
+    },
+    {
+      "name": "音楽理論",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "リアルタイム3D仮想空間での暗号構造解析と手術的復号化",
+      "description": "暗号化されたデータをリアルタイムで可視化し、仮想現実空間上で直接操作できるようにするプロジェクト",
+      "highlights": [
+        "Meta Quest 3を用いてMR空間上に暗号化されたデータをブロック化",
+        "没入型アプローチにより直感的かつ効果的なデータ復元を支援"
+      ],
+      "keywords": ["Meta Quest 3", "AES"],
+      "startDate": "2025-04-14",
+      "endDate": "2025-05-14",
+      "url": "https://mndn.dev",
+      "roles": ["研究インターン"],
+      "entity": "",
+      "type": "application"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Minidon / minibit4",
+    "label": "Full-Stack Student Developer",
+    "image": "https://avatars.githubusercontent.com/u/48941476?v=4",
+    "email": "here@mndn.dev",
+    "phone": "",
+    "url": "https://mndn.dev",
+    "summary": "18-year-old high school student. I build systems, set up and manage servers (self-hosted & cloud). Currently exploring the cloud, mainly playing around with AWS.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Shizuoka",
+      "countryCode": "Japan",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "minibit4",
+        "url": "https://github.com/minibit4"
+      },
+      {
+        "network": "Twitter",
+        "username": "m1n1don",
+        "url": "https://x.com/m1n1don"
+      },
+      {
+        "network": "YouTube",
+        "username": "Minidon",
+        "url": "https://www.youtube.com/@m1n1don"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Virginia Commonwealth University (Computer Science Dept.）",
+      "location": "Richmond, Virginia, US",
+      "description": "ERP consultancy company",
+      "position": "Research Internship",
+      "url": "https://egr.vcu.edu/departments/computer/",
+      "startDate": "2025-04-14",
+      "endDate": "2025-05-14",
+      "summary": "I was engaged in research titled “Real-Time Cryptographic Structure Analysis and Surgical Decryption in 3D Virtual Space,” focusing on interactive analysis and repair of encrypted data in a three-dimensional virtual environment.",
+      "highlights": [
+        "Visualized encrypted data in MR space.",
+        "Enabled surgical-style decryption through intuitive interaction."
+      ]
+    },
+    {
+      "name": "Seriolab Japan",
+      "location": "Japan",
+      "description": "ERP consultancy company",
+      "position": "Owner and Engineer",
+      "url": "https://www.seriolab.jp/",
+      "startDate": "2024-03-01",
+      "summary": "I am currently taking a break from my activities to fully focus on my studies.",
+      "highlights": ["Server Hosting", "Contract Development"]
+    }
+  ],
+  "volunteer": [],
+  "education": [],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Web",
+        "Minecraft Plugin",
+        "Discord Bot",
+        "System Development"
+      ]
+    },
+    {
+      "name": "Server Setup, Ooperation and Maintenance",
+      "keywords": ["Linux", "On-Premise Servers", "Network", "Security"]
+    },
+    {
+      "name": "Instrument",
+      "keywords": ["Piano", "Saxophone"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Japanese",
+      "fluency": "First-Language"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computer Science",
+      "keywords": []
+    },
+    {
+      "name": "Music Theory",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "projects": [
+    {
+      "name": "Real-Time Cryptographic Structure Analysis and Surgical Decryption in 3D Virtual Space",
+      "description": "A project that enables real-time visualization of encrypted data and allows direct interaction within a virtual reality environment.",
+      "highlights": [
+        "Creating block-based representations of encrypted data in MR space with Meta Quest 3.",
+        "Supporting intuitive and effective data restoration through an immersive approach."
+      ],
+      "keywords": ["Meta Quest 3", "AES"],
+      "startDate": "2025-04-14",
+      "endDate": "2025-05-14",
+      "url": "https://mndn.dev",
+      "roles": ["Research Internship"],
+      "entity": "",
+      "type": "application"
+    }
+  ]
+}
