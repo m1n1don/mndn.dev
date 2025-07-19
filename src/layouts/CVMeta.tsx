@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet';
-import { joinItems, summarize } from 'utils/text';
+import { summarize } from 'utils/text';
+// import { joinItems, summarize } from 'utils/text';
 import type { ResumeBasics, ResumeProject, ResumeSkill } from 'types/Resume';
 
 export type CVMetaProps = {
@@ -13,9 +14,11 @@ export default function CVMeta({
   skills = [],
   projects = [],
 }: CVMetaProps) {
-  const { name, label, summary, url, image } = basics;
+  const { name, summary, url, image } = basics;
+  // const { name, label, summary, url, image } = basics;
 
-  const title = joinItems(' | ', name, label);
+  const title = 'minibit4 | Student Developer';
+  // const title = joinItems(' | ', name, label);
   const desc = summarize(summary, 30);
   const keywords = [
     ...skills.flatMap(({ keywords }) => keywords),
@@ -25,6 +28,7 @@ export default function CVMeta({
   return (
     <Helmet>
       <title>{title}</title>
+      <link rel="icon" href={image} />
       <meta name="description" content={desc} />
       <meta name="keywords" content={keywords} />
       <meta name="author" content={name} />
