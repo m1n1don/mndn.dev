@@ -8,7 +8,10 @@ export default async function fetchResumeData(): Promise<ResumeResponse> {
   const params = new URLSearchParams(global.location.search);
   const resumeParam = params.get('resume');
 
-  const resumePath = resumeParam || '/resume.json';
+  const pathname = global.location.pathname;
+  const lang = pathname === '/ja' ? 'ja' : 'en';
+
+  const resumePath = resumeParam || `/resume-${lang}.json`;
   const isExternal = !!resumeParam;
 
   const response = await fetch(resumePath);

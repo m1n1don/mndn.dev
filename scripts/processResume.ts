@@ -1,5 +1,5 @@
 import { writeFile } from 'fs/promises';
-import resume from '~/data/resume.json';
+import resume from '~/data/resume-en.json';
 import extras from '~/data/extras.json';
 
 async function getTTS(text: string, lang: string, outputPath: string) {

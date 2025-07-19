@@ -1,22 +1,18 @@
 import React from 'react';
-import { faCodeBranch, faPrint } from '@fortawesome/free-solid-svg-icons';
 import IconLinkWidget from 'widgets/IconLinkWidget';
 import type { IconLinkWidgetProps } from 'widgets/IconLinkWidget';
-import pkgJson from '~/package.json';
 
 export default function CVFooter() {
-  const [, repoUrl] = pkgJson.repository.url.split('+');
-
   const links: IconLinkWidgetProps[] = [
     {
-      text: 'Source Code',
-      target: repoUrl,
-      icon: faCodeBranch,
+      text: 'English',
+      target: '/',
+      icon: null,
     },
     {
-      text: 'Print',
-      target: window.print,
-      icon: faPrint,
+      text: '日本語',
+      target: '/ja',
+      icon: null,
     },
   ];
 
