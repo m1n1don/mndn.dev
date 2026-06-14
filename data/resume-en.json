@@ -51,7 +51,11 @@
       "url": "https://seriolab.pages.dev/",
       "startDate": "2024-03-01",
       "summary": "Working with several programmers, I operated a contract development business for corporate clients. I handled a wide range of projects, mainly backend systems, and also ran a media outlet focused on wind music. Activities are currently paused so I can focus on my studies.",
-      "highlights": ["Contract Development", "Media"]
+      "highlights": [
+        "Contract Development",
+        "Media",
+        "https://seriolab.pages.dev/ (domain expired)"
+      ]
     },
     {
       "name": "Ingnum Networks",
@@ -62,7 +66,10 @@
       "startDate": "2023-04-17",
       "endDate": "2024-03-31",
       "summary": "Centered on hosting services for game servers, I provided infrastructure services needed for stable online service operations, including DDoS protection, network design, and server operations support. I also obtained an AS number for research purposes and operated global IP addresses.",
-      "highlights": ["Server Hosting"]
+      "highlights": [
+        "Server Hosting",
+        "https://website01-4tm.pages.dev/ (domain expired)"
+      ]
     },
     {
       "name": "ICE",
@@ -173,6 +180,17 @@
   ],
   "references": [],
   "projects": [
+    {
+      "name": "Some Kind of Mobile App",
+      "description": "I more or less started this before fully figuring it out, but for now I have put up a landing page: https://kabemie.com/",
+      "highlights": ["Still defining the requirements", "https://kabemie.com/"],
+      "keywords": ["iOS", "Android", "Kotlin Multiplatform"],
+      "startDate": "2026-05-22",
+      "url": "https://kabemie.com/",
+      "roles": ["Developer"],
+      "entity": "",
+      "type": "application"
+    },
     {
       "name": "Real-Time Cryptographic Structure Analysis and Surgical Decryption in 3D Virtual Space",
       "description": "A project that enables real-time visualization of encrypted data and allows direct interaction within a virtual reality environment.",

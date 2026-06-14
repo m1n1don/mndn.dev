@@ -51,7 +51,11 @@
       "url": "https://seriolab.pages.dev/",
       "startDate": "2024-03-01",
       "summary": "複数のプログラマと連携し、法人向けの受託開発事業を運営しておりました。バックエンドシステムを中心に幅広い案件に対応したほか、吹奏楽専門メディアの運営も行っておりました。現在は学業に専念するため活動を休止しております。",
-      "highlights": ["受託開発", "メディア"]
+      "highlights": [
+        "受託開発",
+        "メディア",
+        "https://seriolab.pages.dev/ （ドメイン失効済）"
+      ]
     },
     {
       "name": "Ingnum Networks",
@@ -62,7 +66,10 @@
       "startDate": "2023-04-17",
       "endDate": "2024-03-31",
       "summary": "ゲームサーバー向けホスティング事業を中心に、DDoS対策、ネットワーク設計、サーバー運用支援など、安定したオンラインサービス運営に必要なインフラ領域のサービスを提供しておりました。また、研究目的でAS番号を取得し、グローバルIPアドレスの運用も行っておりました。",
-      "highlights": ["サーバーホスティング"]
+      "highlights": [
+        "サーバーホスティング",
+        "https://website01-4tm.pages.dev/ (ドメイン失効済）"
+      ]
     },
     {
       "name": "ICE",
@@ -173,6 +180,17 @@
   ],
   "references": [],
   "projects": [
+    {
+      "name": "よくわからないモバイルアプリ",
+      "description": "なんとなく見切り発車してしまいましたが、とりあえずLPだけ置いておきます。 https://kabemie.com/",
+      "highlights": ["要件定義してる最中", "https://kabemie.com/"],
+      "keywords": ["iOS", "Android", "Kotlin Multiplatform"],
+      "startDate": "2026-05-22",
+      "url": "https://kabemie.com/",
+      "roles": ["開発者"],
+      "entity": "",
+      "type": "application"
+    },
     {
       "name": "リアルタイム3D仮想空間での暗号構造解析と手術的復号化",
       "description": "暗号化されたデータをリアルタイムで可視化し、仮想現実空間上で直接操作できるようにするプロジェクト",

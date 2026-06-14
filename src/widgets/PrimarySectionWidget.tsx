@@ -6,6 +6,7 @@ import SimpleListWidget from 'widgets/SimpleListWidget';
 import type { SimpleListWidgetProps } from 'widgets/SimpleListWidget';
 import KeywordsWidget from 'widgets/KeywordsWidget';
 import type { KeywordsWidgetProps } from 'widgets/KeywordsWidget';
+import { linkifyText } from 'utils/text';
 
 export type PrimarySectionWidgetProps = Omit<
   CollapsibleWidgetProps,
@@ -36,7 +37,13 @@ export default function PrimarySectionWidget({
           {items.map(({ content, sublist, keywords, ...item }, idx) => (
             <li key={getKey(item) + idx}>
               <ListItemWidget {...item}>
-                {content && <div>{content}</div>}
+                {content && (
+                  <div>
+                    {typeof content == 'string'
+                      ? linkifyText(content)
+                      : content}
+                  </div>
+                )}
                 <SimpleListWidget {...sublist} />
                 <KeywordsWidget {...keywords} gap={4} className="pt-2" />
               </ListItemWidget>
