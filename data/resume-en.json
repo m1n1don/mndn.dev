@@ -7,7 +7,7 @@
     "email": "contact@mndn.dev",
     "phone": "",
     "url": "https://mndn.dev",
-    "summary": "I'm 19 and recently graduated from high school. These days, I'm collecting various certifications as I prepare to apply to universities abroad. I'm not exactly free, but I'm not exactly not free either. Personally, I have mainly worked on system development and server setup, operations, and maintenance. I also used to do the whole home-server thing. For my tech stack, please check my [GitHub](https://github.com/m1n1don). From here on, I'm thinking of living my life somewhere in cybersecurity.",
+    "summary": "I'm 19 and recently graduated from high school. These days, I'm collecting various certifications as I prepare to apply to universities abroad. I'm not exactly free, but I'm not exactly not free either. Personally, I have mainly worked on system development and server setup, operations, and maintenance. I also used to do the whole home-server thing. For my tech stack, please check my [GitHub](https://github.com/m1n1don). From here on, I'm thinking of living my life somewhere in cybersecurity. 15/06/2026",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,7 +37,7 @@
       "url": "https://egr.vcu.edu/departments/computer/",
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
-      "summary": "Selected for a scholarship program by Japan's Ministry of Education, Culture, Sports, Science and Technology, I conducted research at a research university in the United States on visualizing and analyzing cryptographic structures in VR space. Using Unity, I explored methods for analyzing cryptographic data in a real-time 3D virtual environment and supporting a clearer understanding of cryptographic structures.",
+      "summary": "Selected for a scholarship program by Japan's Ministry of Education, Culture, Sports, Science and Technology, I conducted research at a public university in the United States on visualizing and analyzing cryptographic structures in VR space. Using Unity, I explored methods for analyzing cryptographic data in a real-time 3D virtual environment and supporting a clearer understanding of cryptographic structures.",
       "highlights": [
         "Visualized encrypted data in MR space.",
         "Enabled surgical-style decryption through intuitive interaction."
@@ -96,7 +96,7 @@
   ],
   "volunteer": [
     {
-      "organization": "The organization is secret",
+      "organization": "The organisation is secret",
       "position": "",
       "url": "#",
       "summary": "Using 3D CG and animation, I produced back-screen concert visuals and worked on direction and scripting.",
