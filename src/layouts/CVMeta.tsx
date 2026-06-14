@@ -17,7 +17,7 @@ export default function CVMeta({
   const { name, summary, url, image } = basics;
   // const { name, label, summary, url, image } = basics;
 
-  const title = 'minibit4 | Student Developer';
+  const title = 'Dee | Student Developer';
   // const title = joinItems(' | ', name, label);
   const desc = summarize(summary, 30);
   const keywords = [

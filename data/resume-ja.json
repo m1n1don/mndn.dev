@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "みにどん / minibit4",
+    "name": "Dee / Dave Minion（みにどん）",
     "label": "フルスタック勤労学生",
     "image": "https://avatars.githubusercontent.com/u/48941476?v=4",
-    "email": "here@mndn.dev",
+    "email": "contact@mndn.dev",
     "phone": "",
     "url": "https://mndn.dev",
-    "summary": "18歳です。高校生してます。システム開発やサーバー構築・運用・保守をメインに行っています。自宅サーバーとかやってたりしますが、最近はAWSを中心にクラウドと遊んでます。",
+    "summary": "19歳です。最近高校を卒業しました。現在は、海外大受験のため色々な資格を集めています。暇ではないですが、暇じゃないわけでもないです。個人的にシステム開発やサーバー構築・運用・保守をメインに行っていました。自宅サーバーとかいうのもやってました。技術スタックは[GitHub](https://github.com/m1n1don)見てください。これからはサイバーセキュリティ関係の道で生きていこうかと思ってます。",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,18 +18,13 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "minibit4",
-        "url": "https://github.com/minibit4"
+        "username": "m1n1don",
+        "url": "https://github.com/m1n1don"
       },
       {
         "network": "Twitter",
         "username": "m1n1don",
         "url": "https://x.com/m1n1don"
-      },
-      {
-        "network": "YouTube",
-        "username": "みにどん",
-        "url": "https://www.youtube.com/@m1n1don"
       }
     ]
   },
@@ -37,12 +32,12 @@
     {
       "name": "Virginia Commonwealth University (Computer Science Dept.）",
       "location": "Richmond, Virginia, US",
-      "description": "ERP consultancy company",
+      "description": "",
       "position": "研究インターン",
       "url": "https://egr.vcu.edu/departments/computer/",
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
-      "summary": "「リアルタイム3D仮想空間での暗号構造解析と手術的復号化」に関する研究を行っていました。",
+      "summary": "文部科学省の奨学金制度に採択され、米国の効率研究大学にて、VR空間上で暗号構造を可視化・解析する研究に取り組みました。Unityを用いてリアルタイム3D仮想空間上に暗号データを解析し、暗号構造の理解を支援する手法を検討しました。",
       "highlights": [
         "MR空間上での暗号化されたデータのビジュアライゼーション",
         "手術のように直感的な操作による復号化"
@@ -51,28 +46,108 @@
     {
       "name": "Seriolab Japan（鰤研JP）",
       "location": "日本",
-      "description": "ERP consultancy company",
+      "description": "",
       "position": "オーナー兼エンジニア",
-      "url": "https://www.seriolab.jp/",
+      "url": "https://seriolab.pages.dev/",
       "startDate": "2024-03-01",
-      "summary": "現在は学業に専念するため活動を休止しております。",
-      "highlights": ["サーバーホスティング事業", "受託開発事業"]
+      "summary": "複数のプログラマと連携し、法人向けの受託開発事業を運営しておりました。バックエンドシステムを中心に幅広い案件に対応したほか、吹奏楽専門メディアの運営も行っておりました。現在は学業に専念するため活動を休止しております。",
+      "highlights": [
+        "受託開発",
+        "メディア",
+        "https://seriolab.pages.dev/ （ドメイン失効済）"
+      ]
+    },
+    {
+      "name": "Ingnum Networks",
+      "location": "日本",
+      "description": "",
+      "position": "ファウンダー",
+      "url": "https://website01-4tm.pages.dev/",
+      "startDate": "2023-04-17",
+      "endDate": "2024-03-31",
+      "summary": "ゲームサーバー向けホスティング事業を中心に、DDoS対策、ネットワーク設計、サーバー運用支援など、安定したオンラインサービス運営に必要なインフラ領域のサービスを提供しておりました。また、研究目的でAS番号を取得し、グローバルIPアドレスの運用も行っておりました。",
+      "highlights": [
+        "サーバーホスティング",
+        "https://website01-4tm.pages.dev/ (ドメイン失効済）"
+      ]
+    },
+    {
+      "name": "ICE",
+      "location": "日本",
+      "description": "",
+      "position": "オーナー",
+      "url": "#",
+      "startDate": "2022-07-17",
+      "endDate": "2024-09-25",
+      "summary": "1か月間で約2,000人のユーザーを集客し、ゲームサーバーを運営しておりました。サーバーの企画・構築・運用に加え、SNS等を活用した集客、コミュニティ管理、安定稼働のための保守対応まで一貫して行いました。",
+      "highlights": ["Minecraft"]
+    },
+    {
+      "name": "システム開発等",
+      "location": "日本",
+      "description": "",
+      "position": "プログラマ / プロジェクトマネージャー",
+      "url": "#",
+      "startDate": "2019-04-01",
+      "endDate": "2025-03-31",
+      "summary": "これまでPMを含め、任意団体にて300件以上のシステム開発プロジェクトに参画してきました。要件定義から設計・開発・運用まで、プロジェクト全体を見据えた開発推進に携わってきました。",
+      "highlights": ["フルスタック開発"]
     }
   ],
-  "volunteer": [],
-  "education": [],
-  "awards": [],
+  "volunteer": [
+    {
+      "organization": "団体は秘密です",
+      "position": "",
+      "url": "#",
+      "summary": "3D-CGやアニメーションを用いて、コンサートのバックスクリーン映像の制作、演出・脚本を行いました。。",
+      "highlights": ["映像制作"]
+    },
+    {
+      "organization": "The Community",
+      "position": "",
+      "url": "#",
+      "summary": "中高生約100名程度にプログラミングを教えていました。",
+      "highlights": ["プログラミング"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "S高等学校",
+      "url": "https://nnn.ed.jp/",
+      "area": "",
+      "startDate": "2025-10-01",
+      "endDate": "2026-03-31",
+      "courses": []
+    },
+    {
+      "institution": "静岡県内の某中高一貫校",
+      "url": "#",
+      "area": "",
+      "startDate": "2020-04-01",
+      "endDate": "2025-09-30",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "静岡県大会 金賞（サクソフォン）",
+      "date": "2025-01-01",
+      "awarder": "JBAソロコンテスト",
+      "summary": ""
+    },
+    {
+      "title": "静岡県大会 金賞（サクソフォン）",
+      "date": "2025-03-01",
+      "awarder": "中部日本管楽器個人・重奏コンテスト",
+      "summary": ""
+    }
+  ],
   "certificates": [],
   "publications": [],
   "skills": [
     {
       "name": "プログラミング",
-      "keywords": [
-        "Web",
-        "Minecraftプラグイン",
-        "Discordボット",
-        "システム開発"
-      ]
+      "keywords": ["Web", "フロントエンド", "バックエンド", "モバイルアプリ"]
     },
     {
       "name": "サーバー構築・運用・保守",
@@ -80,7 +155,7 @@
     },
     {
       "name": "楽器",
-      "keywords": ["ピアノ", "サクソフォン"]
+      "keywords": ["ピアノ", "サクソフォン", "吹奏楽"]
     }
   ],
   "languages": [
@@ -91,10 +166,6 @@
     {
       "language": "英語",
       "fluency": "精進します"
-    },
-    {
-      "language": "フランス語",
-      "fluency": "趣味"
     }
   ],
   "interests": [
@@ -110,6 +181,17 @@
   "references": [],
   "projects": [
     {
+      "name": "よくわからないモバイルアプリ",
+      "description": "なんとなく見切り発車してしまいましたが、とりあえずLPだけ置いておきます。 https://kabemie.com/",
+      "highlights": ["要件定義してる最中", "https://kabemie.com/"],
+      "keywords": ["iOS", "Android", "Kotlin Multiplatform"],
+      "startDate": "2026-05-22",
+      "url": "https://kabemie.com/",
+      "roles": ["開発者"],
+      "entity": "",
+      "type": "application"
+    },
+    {
       "name": "リアルタイム3D仮想空間での暗号構造解析と手術的復号化",
       "description": "暗号化されたデータをリアルタイムで可視化し、仮想現実空間上で直接操作できるようにするプロジェクト",
       "highlights": [
@@ -119,7 +201,7 @@
       "keywords": ["Meta Quest 3", "AES"],
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
-      "url": "https://mndn.dev",
+      "url": "#",
       "roles": ["研究インターン"],
       "entity": "",
       "type": "application"

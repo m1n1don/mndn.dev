@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { linkifyText } from 'utils/text';
 
 export type SimpleListWidgetProps = {
   title: string;
@@ -25,7 +26,7 @@ export default function SimpleListWidget({
               className="me-1.5 pt-0.5 lg:me-2"
               opacity={0.8}
             />
-            <p>{item}</p>
+            <p>{linkifyText(item)}</p>
           </li>
         ))}
       </ul>
