@@ -11,30 +11,56 @@ export function summarize(text: string, wordCount: number) {
     : parts.slice(0, wordCount).join(' ') + '...';
 }
 
-const urlPattern = /(https?:\/\/[^\s]+)/g;
+const linkPattern = /\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)|(https?:\/\/[^\s]+)/g;
 const trailingPunctuationPattern = /[),.。!?！？]+$/;
 
+function createTextLink(href: string, label = href, key?: string) {
+  return createElement(
+    'a',
+    {
+      href,
+      key,
+      target: '_blank',
+      rel: 'noreferrer',
+      className: 'border-b border-dashed border-gray-500 dark:border-gray-400',
+    },
+    label,
+  );
+}
+
 export function linkifyText(text: string): ReactNode {
-  const parts = text.split(urlPattern);
+  const nodes: ReactNode[] = [];
+  let lastIndex = 0;
 
-  if (parts.length == 1) return text;
+  for (const match of text.matchAll(linkPattern)) {
+    const [matchedText, label, markdownHref, bareHref] = match;
+    const matchIndex = match.index ?? 0;
 
-  return parts.map((part, index) => {
-    if (!part.startsWith('http://') && !part.startsWith('https://')) {
-      return part;
+    if (matchIndex > lastIndex) {
+      nodes.push(text.slice(lastIndex, matchIndex));
+    }
+
+    if (markdownHref) {
+      nodes.push(
+        createTextLink(markdownHref, label, `${markdownHref}-${matchIndex}`),
+      );
+      lastIndex = matchIndex + matchedText.length;
+      continue;
     }
 
     const trailingPunctuation =
-      part.match(trailingPunctuationPattern)?.[0] ?? '';
+      bareHref.match(trailingPunctuationPattern)?.[0] ?? '';
     const href = trailingPunctuation
-      ? part.slice(0, -trailingPunctuation.length)
-      : part;
+      ? bareHref.slice(0, -trailingPunctuation.length)
+      : bareHref;
 
-    return createElement(
-      'span',
-      { key: `${href}-${index}` },
-      createElement('a', { href, target: '_blank', rel: 'noreferrer' }, href),
-      trailingPunctuation,
-    );
-  });
+    nodes.push(createTextLink(href, href, `${href}-${matchIndex}`));
+    if (trailingPunctuation) nodes.push(trailingPunctuation);
+    lastIndex = matchIndex + matchedText.length;
+  }
+
+  if (nodes.length == 0) return text;
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+
+  return nodes;
 }
