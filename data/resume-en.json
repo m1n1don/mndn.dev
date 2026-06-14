@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Minidon / minibit4",
-    "label": "Full-Stack Student Developer",
+    "name": "Dee / Dave Minion (Minidon)",
+    "label": "Full-Stack Working Student",
     "image": "https://avatars.githubusercontent.com/u/48941476?v=4",
-    "email": "here@mndn.dev",
+    "email": "contact@mndn.dev",
     "phone": "",
     "url": "https://mndn.dev",
-    "summary": "18-year-old high school student. I build systems, set up and manage servers (self-hosted & cloud). Currently exploring the cloud, mainly playing around with AWS.",
+    "summary": "I'm 19 and recently graduated from high school. These days, I'm collecting various certifications as I prepare to apply to universities abroad. I'm not exactly free, but I'm not exactly not free either. Personally, I have mainly worked on system development and server setup, operations, and maintenance. I also used to do the whole home-server thing. From here on, I'm thinking of living my life somewhere in cybersecurity.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -18,18 +18,13 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "minibit4",
-        "url": "https://github.com/minibit4"
+        "username": "m1n1don",
+        "url": "https://github.com/m1n1don"
       },
       {
         "network": "Twitter",
         "username": "m1n1don",
         "url": "https://x.com/m1n1don"
-      },
-      {
-        "network": "YouTube",
-        "username": "Minidon",
-        "url": "https://www.youtube.com/@m1n1don"
       }
     ]
   },
@@ -37,50 +32,123 @@
     {
       "name": "Virginia Commonwealth University (Computer Science Dept.）",
       "location": "Richmond, Virginia, US",
-      "description": "ERP consultancy company",
+      "description": "",
       "position": "Research Internship",
       "url": "https://egr.vcu.edu/departments/computer/",
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
-      "summary": "I was engaged in research titled “Real-Time Cryptographic Structure Analysis and Surgical Decryption in 3D Virtual Space,” focusing on interactive analysis and repair of encrypted data in a three-dimensional virtual environment.",
+      "summary": "Selected for a scholarship program by Japan's Ministry of Education, Culture, Sports, Science and Technology, I conducted research at a research university in the United States on visualizing and analyzing cryptographic structures in VR space. Using Unity, I explored methods for analyzing cryptographic data in a real-time 3D virtual environment and supporting a clearer understanding of cryptographic structures.",
       "highlights": [
         "Visualized encrypted data in MR space.",
         "Enabled surgical-style decryption through intuitive interaction."
       ]
     },
     {
-      "name": "Seriolab Japan",
+      "name": "Seriolab Japan (Buriken JP)",
       "location": "Japan",
-      "description": "ERP consultancy company",
+      "description": "",
       "position": "Owner and Engineer",
-      "url": "https://www.seriolab.jp/",
+      "url": "https://seriolab.pages.dev/",
       "startDate": "2024-03-01",
-      "summary": "I am currently taking a break from my activities to fully focus on my studies.",
-      "highlights": ["Server Hosting", "Contract Development"]
+      "summary": "Working with several programmers, I operated a contract development business for corporate clients. I handled a wide range of projects, mainly backend systems, and also ran a media outlet focused on wind music. Activities are currently paused so I can focus on my studies.",
+      "highlights": ["Contract Development", "Media"]
+    },
+    {
+      "name": "Ingnum Networks",
+      "location": "Japan",
+      "description": "",
+      "position": "Founder",
+      "url": "https://website01-4tm.pages.dev/",
+      "startDate": "2023-04-17",
+      "endDate": "2024-03-31",
+      "summary": "Centered on hosting services for game servers, I provided infrastructure services needed for stable online service operations, including DDoS protection, network design, and server operations support. I also obtained an AS number for research purposes and operated global IP addresses.",
+      "highlights": ["Server Hosting"]
+    },
+    {
+      "name": "ICE",
+      "location": "Japan",
+      "description": "",
+      "position": "Owner",
+      "url": "#",
+      "startDate": "2022-07-17",
+      "endDate": "2024-09-25",
+      "summary": "I operated a game server that attracted around 2,000 users in one month. I handled the full cycle, from planning, building, and operating the server to attracting users through social media, managing the community, and maintaining stable operations.",
+      "highlights": ["Minecraft"]
+    },
+    {
+      "name": "System Development and Related Work",
+      "location": "Japan",
+      "description": "",
+      "position": "Programmer / Project Manager",
+      "url": "#",
+      "startDate": "2019-04-01",
+      "endDate": "2025-03-31",
+      "summary": "Including work as a project manager, I have participated in more than 300 system development projects through voluntary organizations. I have been involved in driving development with the whole project in view, from requirements definition through design, development, and operations.",
+      "highlights": ["Full-Stack Development"]
     }
   ],
-  "volunteer": [],
-  "education": [],
-  "awards": [],
+  "volunteer": [
+    {
+      "organization": "The organization is secret",
+      "position": "",
+      "url": "#",
+      "summary": "Using 3D CG and animation, I produced back-screen concert visuals and worked on direction and scripting.",
+      "highlights": ["Video Production"]
+    },
+    {
+      "organization": "The Community",
+      "position": "",
+      "url": "#",
+      "summary": "I taught programming to around 100 junior and senior high school students.",
+      "highlights": ["Programming"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "S High School",
+      "url": "https://nnn.ed.jp/",
+      "area": "",
+      "startDate": "2025-10-01",
+      "endDate": "2026-03-31",
+      "courses": []
+    },
+    {
+      "institution": "A private combined junior and senior high school in Shizuoka Prefecture",
+      "url": "#",
+      "area": "",
+      "startDate": "2020-04-01",
+      "endDate": "2025-09-30",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Gold Prize, Shizuoka Prefectural Competition (Saxophone)",
+      "date": "2025-01-01",
+      "awarder": "JBA Solo Contest",
+      "summary": ""
+    },
+    {
+      "title": "Gold Prize, Shizuoka Prefectural Competition (Saxophone)",
+      "date": "2025-03-01",
+      "awarder": "Chubu-Nippon Solo and Ensemble Wind Instrument Contest",
+      "summary": ""
+    }
+  ],
   "certificates": [],
   "publications": [],
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Web",
-        "Minecraft Plugin",
-        "Discord Bot",
-        "System Development"
-      ]
+      "keywords": ["Web", "Frontend", "Backend", "Mobile Apps"]
     },
     {
-      "name": "Server Setup, Ooperation and Maintenance",
-      "keywords": ["Linux", "On-Premise Servers", "Network", "Security"]
+      "name": "Server Setup, Operations, and Maintenance",
+      "keywords": ["Linux", "Rack Servers", "Network", "Security"]
     },
     {
-      "name": "Instrument",
-      "keywords": ["Piano", "Saxophone"]
+      "name": "Instruments",
+      "keywords": ["Piano", "Saxophone", "Wind Music"]
     }
   ],
   "languages": [
@@ -90,11 +158,7 @@
     },
     {
       "language": "English",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "French",
-      "fluency": "Beginner"
+      "fluency": "Working on it"
     }
   ],
   "interests": [
@@ -119,7 +183,7 @@
       "keywords": ["Meta Quest 3", "AES"],
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
-      "url": "https://mndn.dev",
+      "url": "#",
       "roles": ["Research Internship"],
       "entity": "",
       "type": "application"

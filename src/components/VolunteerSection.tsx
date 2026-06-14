@@ -12,21 +12,18 @@ export default function VolunteerSection({
 }: SectionProps<ResumeVolunteer[]>) {
   const props: PrimarySectionWidgetProps = {
     title,
-    items: data.map(
-      ({ position, organization, url, summary, highlights, ...dates }) => {
-        return {
-          title: position,
-          subtitles: [{ text: organization, href: url }],
-          textRight: formatDateRange(dates.startDate, dates.endDate),
-          icon: faUserGroup,
-          content: summary,
-          sublist: {
-            title: subtitle,
-            items: highlights,
-          },
-        };
-      },
-    ),
+    items: data.map(({ organization, url, summary, highlights, ...dates }) => {
+      return {
+        title: { text: organization, href: url },
+        textRight: formatDateRange(dates.startDate, dates.endDate),
+        icon: faUserGroup,
+        content: summary,
+        sublist: {
+          title: subtitle,
+          items: highlights,
+        },
+      };
+    }),
   };
 
   return <PrimarySectionWidget {...props} />;
