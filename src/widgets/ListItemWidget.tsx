@@ -1,4 +1,4 @@
-import { PropsWithChildren } from 'react';
+import { MouseEvent, PropsWithChildren } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { IconProp } from '@fortawesome/fontawesome-svg-core';
 
@@ -25,13 +25,23 @@ export default function ListItemWidget({
   className,
   children,
 }: ListItemWidgetProps) {
+  function handlePlaceholderClick(event: MouseEvent<HTMLAnchorElement>) {
+    event.preventDefault();
+  }
+
   function renderTitle(title: ListItemWidgetTitle) {
     if (typeof title == 'string') {
       return <p key={title}>{title}</p>;
     }
+    const isPlaceholder = title.href == '#';
     return (
       <p key={title.text}>
-        <a href={title.href}>{title.text}</a>
+        <a
+          href={title.href}
+          onClick={isPlaceholder ? handlePlaceholderClick : undefined}
+        >
+          {title.text}
+        </a>
       </p>
     );
   }

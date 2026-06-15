@@ -26,7 +26,10 @@ export default function IconLinkWidget({
     title: title || text,
   };
   if (typeof target == 'function') {
-    linkProps.onClick = target;
+    linkProps.onClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+      event.preventDefault();
+      target();
+    };
   } else {
     linkProps.href = target;
   }

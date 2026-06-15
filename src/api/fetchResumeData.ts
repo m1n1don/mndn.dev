@@ -9,7 +9,7 @@ export default async function fetchResumeData(): Promise<ResumeResponse> {
   const resumeParam = params.get('resume');
 
   const pathname = global.location.pathname;
-  const lang = pathname === '/ja' ? 'ja' : 'en';
+  const lang = pathname === '/ja' || pathname.startsWith('/ja/') ? 'ja' : 'en';
 
   const resumePath = resumeParam || `/resume-${lang}.json`;
   const isExternal = !!resumeParam;

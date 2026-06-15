@@ -6,14 +6,17 @@ import LoadingView from 'views/LoadingView';
 import ErrorView from 'views/ErrorView';
 
 const CurriculumVitae = lazy(() => import('views/CurriculumVitae'));
+const GalleryView = lazy(() => import('views/GalleryView'));
 
 export function App() {
+  const isGalleryPage = global.location.pathname.endsWith('/gallery');
+
   return (
     <ErrorBoundary fallback={<ErrorView />}>
       <Suspense fallback={<LoadingView />}>
         <QueryProvider>
           <ResumeProvider>
-            <CurriculumVitae />
+            {isGalleryPage ? <GalleryView /> : <CurriculumVitae />}
           </ResumeProvider>
         </QueryProvider>
       </Suspense>

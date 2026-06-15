@@ -4,6 +4,7 @@ import AwardsSection from 'components/AwardsSection';
 import BasicsSection from 'components/BasicsSection';
 import CertificatesSection from 'components/CertificatesSection';
 import EducationSection from 'components/EducationSection';
+import GallerySection from 'components/GallerySection';
 import InterestsSection from 'components/InterestsSection';
 import LanguagesSection from 'components/LanguagesSection';
 import ProfilesSection from 'components/ProfilesSection';
@@ -22,6 +23,7 @@ export default function CurriculumVitae() {
     basics,
     certificates,
     education,
+    gallery,
     interests,
     languages,
     projects,
@@ -65,6 +67,7 @@ export default function CurriculumVitae() {
       <AwardsSection title="Awards" data={awards} />
       <CertificatesSection title="Certificates" data={certificates} />
       <PublicationsSection title="Publications" data={publications} />
+      <GallerySection title="Gallery" data={gallery} />
       <ProjectsSection title="Projects" subtitle="Highlights" data={projects} />
       <ReferencesSection title="References" data={references} />
     </CVLayout>

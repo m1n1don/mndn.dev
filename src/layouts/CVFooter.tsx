@@ -3,15 +3,27 @@ import IconLinkWidget from 'widgets/IconLinkWidget';
 import type { IconLinkWidgetProps } from 'widgets/IconLinkWidget';
 
 export default function CVFooter() {
+  function getLanguagePath(lang: 'en' | 'ja') {
+    const isGalleryPage = global.location.pathname.endsWith('/gallery');
+    if (!isGalleryPage) return lang == 'ja' ? '/ja' : '/';
+
+    const search = global.location.search;
+    return lang == 'ja' ? `/ja/gallery${search}` : `/gallery${search}`;
+  }
+
+  function goToLanguage(lang: 'en' | 'ja') {
+    global.location.href = getLanguagePath(lang);
+  }
+
   const links: IconLinkWidgetProps[] = [
     {
       text: 'English',
-      target: '/',
+      target: () => goToLanguage('en'),
       icon: null,
     },
     {
       text: '日本語',
-      target: '/ja',
+      target: () => goToLanguage('ja'),
       icon: null,
     },
   ];
