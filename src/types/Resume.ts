@@ -12,6 +12,7 @@ export type Resume = {
   interests: ResumeInterest[];
   references: ResumeReference[];
   projects: ResumeProject[];
+  gallery?: ResumeGalleryItem[];
   meta?: ResumeMeta;
 };
 
@@ -124,6 +125,18 @@ export type ResumeProject = {
   roles: string[];
   entity: string;
   type: string;
+};
+
+export type ResumeGalleryItem = {
+  title: string;
+  description: string;
+  date?: string;
+  image: string;
+  mediaType?: 'image' | 'video';
+  showOnHome?: boolean;
+  url: string;
+  tags: string[];
+  tagLabels?: Record<string, string>;
 };
 
 export type ResumeMeta = {
