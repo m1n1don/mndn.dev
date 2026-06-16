@@ -184,7 +184,7 @@
       "title": "Home Server Overview",
       "description": "Details are shown in a separate image.",
       "date": "06/03/2024",
-      "image": "/gallery/servers-overview.jpg",
+      "image": "/gallery/servers-overview.webp",
       "url": "#",
       "tags": ["rack-server"]
     },
@@ -192,7 +192,7 @@
       "title": "Home Server #1",
       "description": "Dell PowerEdge R340 / NEC Express5800/R120f-1E / HPE ProLiant DL360p Gen8",
       "date": "06/03/2024",
-      "image": "/gallery/servers-01.jpg",
+      "image": "/gallery/servers-01.webp",
       "showOnHome": true,
       "url": "#",
       "tags": ["rack-server"]
@@ -201,7 +201,7 @@
       "title": "Home Server #2",
       "description": "Dell PowerEdge R320 (2.5-inch) / Dell PowerEdge R320 (3.5-inch) / APC Smart-UPS 1200W",
       "date": "06/03/2024",
-      "image": "/gallery/servers-02.jpg",
+      "image": "/gallery/servers-02.webp",
       "showOnHome": true,
       "url": "#",
       "tags": ["rack-server"]
@@ -210,7 +210,7 @@
       "title": "Home Server #3",
       "description": "Fortinet FortiGate 52E / Yamaha RTX1200 / Allied Telesis x510-28gtx",
       "date": "06/03/2024",
-      "image": "/gallery/servers-03.jpg",
+      "image": "/gallery/servers-03.webp",
       "showOnHome": true,
       "url": "#",
       "tags": ["network"]
@@ -219,7 +219,7 @@
       "title": "PowerEdge R340",
       "description": "The most expensive piece of equipment I’ve ever bought",
       "date": "31/01/2024",
-      "image": "/gallery/poweredge-r340.jpg",
+      "image": "/gallery/poweredge-r340.webp",
       "url": "#",
       "tags": ["rack-server"]
     },
@@ -227,7 +227,7 @@
       "title": "New Home Server Setup",
       "description": "Moved into the new environment.",
       "date": "24/01/2025",
-      "image": "/gallery/servers-new.jpg",
+      "image": "/gallery/servers-new.webp",
       "showOnHome": true,
       "url": "#",
       "tags": ["rack-server", "network"]
@@ -236,7 +236,7 @@
       "title": "Home Server Night View #1",
       "description": "It is extremely cute.",
       "date": "06/03/2024",
-      "image": "/gallery/nightview-01.mov",
+      "image": "/gallery/nightview-01.mp4",
       "url": "#",
       "tags": ["rack-server", "night-view", "video"]
     },
@@ -244,7 +244,7 @@
       "title": "Home Server Night View #2",
       "description": "Please ignore the glowing error light.",
       "date": "08/02/2024",
-      "image": "/gallery/nightview-02.mov",
+      "image": "/gallery/nightview-02.mp4",
       "url": "#",
       "tags": ["rack-server", "night-view", "video"]
     },
@@ -252,7 +252,7 @@
       "title": "An Early Server",
       "description": "A very loud Fujitsu 2U server from the early days.",
       "date": "28/12/2022",
-      "image": "/gallery/servers-initial.jpg",
+      "image": "/gallery/servers-initial.webp",
       "url": "#",
       "tags": ["rack-server"]
     },
@@ -260,7 +260,7 @@
       "title": "Unity",
       "description": "From the research work I was allowed to do at a university in the United States.",
       "date": "17/04/2025",
-      "image": "/gallery/research.jpg",
+      "image": "/gallery/research.webp",
       "url": "#",
       "tags": ["research"]
     }
