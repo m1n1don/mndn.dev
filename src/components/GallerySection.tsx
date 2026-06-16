@@ -264,7 +264,7 @@ export default function GallerySection({
             const isPlaceholder = url == '#';
             const video = isVideo(item);
             const media = (
-              <div className="aspect-[16/10] bg-gray-100 transition-colors group-hover:bg-gray-200 dark:bg-gray-900 dark:group-hover:bg-gray-800">
+              <div className="aspect-[16/10] bg-gray-100 dark:bg-gray-900">
                 {image && video ? (
                   <video
                     src={image}
@@ -297,7 +297,7 @@ export default function GallerySection({
                 {image ? (
                   <button
                     type="button"
-                    className="group block w-full cursor-zoom-in text-left"
+                    className="group block w-full cursor-zoom-in text-left focus:outline-none"
                     onClick={() => setSelectedImage(item)}
                     aria-label={`${title} ${video ? 'video' : 'image'}`}
                   >

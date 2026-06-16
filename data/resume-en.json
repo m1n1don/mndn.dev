@@ -184,15 +184,15 @@
       "title": "Home Server Overview",
       "description": "Details are shown in a separate image.",
       "date": "06/03/2024",
-      "image": "https://media.discordapp.net/attachments/1010143630431891546/1515949753509351604/servers-overview.jpg?ex=6a30ddba&is=6a2f8c3a&hm=f2f5920632e0ee2cac5b10e48c302cf370059bc9257a96f7228e68adf4e5a7c0&=&format=webp&width=394&height=700",
+      "image": "/gallery/servers-overview.jpg",
       "url": "#",
       "tags": ["rack-server"]
     },
     {
       "title": "Home Server #1",
       "description": "Dell PowerEdge R340 / NEC Express5800/R120f-1E / HPE ProLiant DL360p Gen8",
-      "date": "2024-01-01",
-      "image": "https://media.discordapp.net/attachments/1010143630431891546/1515949142071836812/servers-01.jpg?ex=6a30dd28&is=6a2f8ba8&hm=3c0ad5345f3a24cd6c6b7ad3c057a94cd2ff6bd6e599507841882dbfea8e07fd&=&format=webp&width=394&height=700",
+      "date": "06/03/2024",
+      "image": "/gallery/servers-01.jpg",
       "showOnHome": true,
       "url": "#",
       "tags": ["rack-server"]
@@ -200,8 +200,8 @@
     {
       "title": "Home Server #2",
       "description": "Dell PowerEdge R320 (2.5-inch) / Dell PowerEdge R320 (3.5-inch) / APC Smart-UPS 1200W",
-      "date": "2024-01-01",
-      "image": "https://media.discordapp.net/attachments/1513095117156782090/1513211658598617149/IMG_3391.jpg?ex=6a30222d&is=6a2ed0ad&hm=2dfce8bc9d6c258883fa198ad6c1bfef07cba2028a9601d703c2f69ebab14cfd&=&format=webp&width=870&height=1546",
+      "date": "06/03/2024",
+      "image": "/gallery/servers-02.jpg",
       "showOnHome": true,
       "url": "#",
       "tags": ["rack-server"]
@@ -209,8 +209,8 @@
     {
       "title": "Home Server #3",
       "description": "Fortinet FortiGate 52E / Yamaha RTX1200 / Allied Telesis x510-28gtx",
-      "date": "2024-01-01",
-      "image": "https://media.discordapp.net/attachments/1513095117156782090/1513211659953639434/IMG_3397.jpg?ex=6a30222d&is=6a2ed0ad&hm=f1ee9252a37b31bf8105fe9dc61c5a29000c1061a70ba3712611bef4780859d9&=&format=webp&width=2720&height=1530",
+      "date": "06/03/2024",
+      "image": "/gallery/servers-03.jpg",
       "showOnHome": true,
       "url": "#",
       "tags": ["network"]
@@ -219,7 +219,7 @@
       "title": "PowerEdge R340",
       "description": "The most expensive piece of equipment I’ve ever bought",
       "date": "31/01/2024",
-      "image": "https://media.discordapp.net/attachments/1010143630431891546/1515945282896924753/image.jpg?ex=6a30d990&is=6a2f8810&hm=c2cb9dba7430ca89ccc34ef3426123cfbd665fa4a3d443a40b6b44314bf6f638&=&format=webp&width=986&height=1752",
+      "image": "/gallery/poweredge-r340.jpg",
       "url": "#",
       "tags": ["rack-server"]
     },
@@ -227,7 +227,7 @@
       "title": "New Home Server Setup",
       "description": "Moved into the new environment.",
       "date": "24/01/2025",
-      "image": "https://media.discordapp.net/attachments/1010143630431891546/1515937628967407636/image.jpg?ex=6a30d26f&is=6a2f80ef&hm=3ce109de6144e3e3c4e362d9831143d63cf670b726ba8099f9b7954a44932caa&=&format=webp&width=986&height=1752",
+      "image": "/gallery/servers-new.jpg",
       "showOnHome": true,
       "url": "#",
       "tags": ["rack-server", "network"]
@@ -236,7 +236,7 @@
       "title": "Home Server Night View #1",
       "description": "It is extremely cute.",
       "date": "06/03/2024",
-      "image": "https://cdn.discordapp.com/attachments/1010143630431891546/1515930952713633832/IMG_3401.mov?ex=6a30cc37&is=6a2f7ab7&hm=dbfa0d3cc2001e5c97e8ef004cecbb82f3cb619a69e529f6ad2194373df05830&",
+      "image": "/gallery/nightview-01.mov",
       "url": "#",
       "tags": ["rack-server", "night-view", "video"]
     },
@@ -244,7 +244,7 @@
       "title": "Home Server Night View #2",
       "description": "Please ignore the glowing error light.",
       "date": "08/02/2024",
-      "image": "https://cdn.discordapp.com/attachments/1010143630431891546/1515941173024391239/IMG_3344.mov?ex=6a30d5bc&is=6a2f843c&hm=cebad8e44509e0a52f226445e4df20936965f06d4bdd848c94f9e1eae6b5c601&",
+      "image": "/gallery/nightview-02.mov",
       "url": "#",
       "tags": ["rack-server", "night-view", "video"]
     },
@@ -252,7 +252,7 @@
       "title": "An Early Server",
       "description": "A very loud Fujitsu 2U server from the early days.",
       "date": "28/12/2022",
-      "image": "https://media.discordapp.net/attachments/1010143630431891546/1515936587391701094/image.jpg?ex=6a30d177&is=6a2f7ff7&hm=2ddecbe830991bc1ea1fa6a995971d4aea316db92cf04314f6155d102911f91e&=&format=webp&width=2746&height=1544",
+      "image": "/gallery/servers-initial.jpg",
       "url": "#",
       "tags": ["rack-server"]
     },
@@ -260,7 +260,7 @@
       "title": "Unity",
       "description": "From the research work I was allowed to do at a university in the United States.",
       "date": "17/04/2025",
-      "image": "https://media.discordapp.net/attachments/1010143630431891546/1515940201674051724/image.jpg?ex=6a30d4d4&is=6a2f8354&hm=91579d9a7d4e1b060bc88aa084c2f2454929ff6d6fd35222a0fc536ac0481e4b&=&format=webp&width=1100&height=618",
+      "image": "/gallery/research.jpg",
       "url": "#",
       "tags": ["research"]
     }
