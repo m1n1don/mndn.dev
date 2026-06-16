@@ -4,6 +4,25 @@ export type ResumeResponse = Resume & {
   isExternal?: boolean;
 };
 
+function resolveMediaUrl(path: string) {
+  const mediaUrl = process.env.MEDIA_URL;
+  if (!mediaUrl || /^(https?:)?\/\//.test(path) || path.startsWith('data:')) {
+    return path;
+  }
+
+  return [mediaUrl.replace(/\/$/, ''), path.replace(/^\//, '')].join('/');
+}
+
+function resolveResumeMedia(resume: Resume): Resume {
+  return {
+    ...resume,
+    gallery: resume.gallery?.map((item) => ({
+      ...item,
+      image: resolveMediaUrl(item.image),
+    })),
+  };
+}
+
 export default async function fetchResumeData(): Promise<ResumeResponse> {
   const params = new URLSearchParams(global.location.search);
   const resumeParam = params.get('resume');
@@ -21,7 +40,7 @@ export default async function fetchResumeData(): Promise<ResumeResponse> {
 
   const resume = await response.json();
   return {
-    ...resume,
+    ...resolveResumeMedia(resume),
     isExternal,
   };
 }
