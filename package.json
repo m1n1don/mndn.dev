@@ -11,6 +11,7 @@
     "init": "npm run clean && npm run copy && npm run resume",
     "clean": "shx rm -rf .parcel-cache dist && shx mkdir dist",
     "copy": "shx cp -r data/* dist",
+    "dev": "npm run start",
     "start": "npm run init && parcel",
     "build": "npm run init && parcel build",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",

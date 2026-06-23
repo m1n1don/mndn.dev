@@ -2,6 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Dee / Dave Minion (Minidon)",
+    "formalName": "Kazuto Nishio",
     "label": "Full-Stack Working Student",
     "image": "https://avatars.githubusercontent.com/u/48941476?v=4",
     "email": "contact@mndn.dev",
@@ -25,6 +26,11 @@
         "network": "Twitter",
         "username": "m1n1don",
         "url": "https://x.com/m1n1don"
+      },
+      {
+        "network": "Discord",
+        "username": "m1n1don",
+        "url": "https://discordapp.com/users/419387517310337026"
       }
     ]
   },

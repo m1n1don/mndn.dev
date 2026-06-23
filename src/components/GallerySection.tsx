@@ -5,6 +5,7 @@ import { formatDate } from 'utils/date';
 import CollapsibleWidget from 'widgets/CollapsibleWidget';
 import type { SectionProps } from 'types/Props';
 import type { ResumeGalleryItem } from 'types/Resume';
+import { appendViewMode } from 'utils/viewMode';
 
 type GallerySectionProps = SectionProps<ResumeGalleryItem[]> & {
   fullPage?: boolean;
@@ -76,7 +77,10 @@ export default function GallerySection({
     if (sort) params.set('sort', sort);
 
     const query = params.toString();
-    return query ? `${getGalleryPath()}?${query}` : getGalleryPath();
+    const galleryUrl = query
+      ? `${getGalleryPath()}?${query}`
+      : getGalleryPath();
+    return appendViewMode(galleryUrl);
   }
 
   function formatTag(tag: string) {
@@ -352,7 +356,7 @@ export default function GallerySection({
         </ul>
         {showGalleryLink && (
           <p className="pt-4 text-sm font-light">
-            <a href={getGalleryPath()}>{galleryLinkText}</a>
+            <a href={getGalleryUrl(null, null)}>{galleryLinkText}</a>
           </p>
         )}
       </CollapsibleWidget>
