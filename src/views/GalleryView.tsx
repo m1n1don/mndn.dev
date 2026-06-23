@@ -7,6 +7,7 @@ import ProfilesSection from 'components/ProfilesSection';
 import SkillsSection from 'components/SkillsSection';
 import CVLayout from 'layouts/CVLayout';
 import { ResumeContext } from 'contexts/ResumeContext';
+import { appendViewMode } from 'utils/viewMode';
 
 export default function GalleryView() {
   const {
@@ -19,7 +20,7 @@ export default function GalleryView() {
     isExternal,
   } = useContext(ResumeContext);
   const isJapanese = global.location.pathname.startsWith('/ja');
-  const homePath = isJapanese ? '/ja' : '/';
+  const homePath = appendViewMode(isJapanese ? '/ja' : '/');
   const backText = isJapanese ? 'ホームへ戻る' : 'Back home';
   const backLink = (
     <p className="text-sm font-light">

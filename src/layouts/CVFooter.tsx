@@ -1,11 +1,12 @@
 import React from 'react';
 import IconLinkWidget from 'widgets/IconLinkWidget';
 import type { IconLinkWidgetProps } from 'widgets/IconLinkWidget';
+import { appendViewMode } from 'utils/viewMode';
 
 export default function CVFooter() {
   function getLanguagePath(lang: 'en' | 'ja') {
     const isGalleryPage = global.location.pathname.endsWith('/gallery');
-    if (!isGalleryPage) return lang == 'ja' ? '/ja' : '/';
+    if (!isGalleryPage) return appendViewMode(lang == 'ja' ? '/ja' : '/');
 
     const search = global.location.search;
     return lang == 'ja' ? `/ja/gallery${search}` : `/gallery${search}`;

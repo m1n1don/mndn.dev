@@ -18,6 +18,7 @@ export type Resume = {
 
 export type ResumeBasics = {
   name: string;
+  formalName?: string;
   label: string;
   image: string;
   email: string;

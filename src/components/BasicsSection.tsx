@@ -10,6 +10,7 @@ import AudioPlayerWidget from 'widgets/AudioPlayerWidget';
 import type { SectionProps } from 'types/Props';
 import type { ResumeBasics } from 'types/Resume';
 import { joinItems } from 'utils/text';
+import { isFormalView } from 'utils/viewMode';
 
 export default function BasicsSection({
   data,
@@ -18,10 +19,11 @@ export default function BasicsSection({
   isExternal: boolean;
 }>) {
   const {
-    basics: { name, label, image, phone, email, url, location },
+    basics: { name, formalName, label, image, phone, email, url, location },
     isExternal,
   } = data;
 
+  const displayName = isFormalView() && formalName ? formalName : name;
   const locationStr = joinItems(', ', location.city, location.countryCode);
   const locationUrl = `https://maps.google.com/?q=${encodeURIComponent(locationStr)}`;
 
@@ -64,7 +66,7 @@ export default function BasicsSection({
       <div className="flex w-full flex-col sm:flex-row sm:items-end sm:justify-between">
         <div className="py-4 sm:py-0">
           <h1 className="flex items-end pb-0 font-sans-narrow text-2xl sm:pb-1 sm:text-3xl">
-            <span>{name}</span>
+            <span>{displayName}</span>
             <span className="text-xl" hidden={isExternal}>
               <AudioPlayerWidget src="tts.mp3" />
             </span>
