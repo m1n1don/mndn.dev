@@ -1,5 +1,6 @@
 import { faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import { formatDateRange } from 'utils/date';
+import { isFormalView } from 'utils/viewMode';
 import PrimarySectionWidget from 'widgets/PrimarySectionWidget';
 import type { PrimarySectionWidgetProps } from 'widgets/PrimarySectionWidget';
 import type { SectionProps } from 'types/Props';
@@ -12,18 +13,26 @@ export default function EducationSection({
 }: SectionProps<ResumeEducation[]>) {
   const props: PrimarySectionWidgetProps = {
     title,
-    items: data.map(({ area, institution, url, courses, ...dates }) => {
-      return {
-        title: { text: institution, href: url },
-        subtitles: [area],
-        textRight: formatDateRange(dates.startDate, dates.endDate),
-        icon: faUserGraduate,
-        sublist: {
-          title: subtitle,
-          items: courses,
-        },
-      };
-    }),
+    items: data.map(
+      ({ area, institution, formalInstitution, url, courses, ...dates }) => {
+        return {
+          title: {
+            text:
+              isFormalView() && formalInstitution
+                ? formalInstitution
+                : institution,
+            href: url,
+          },
+          subtitles: [area],
+          textRight: formatDateRange(dates.startDate, dates.endDate),
+          icon: faUserGraduate,
+          sublist: {
+            title: subtitle,
+            items: courses,
+          },
+        };
+      },
+    ),
   };
 
   return <PrimarySectionWidget {...props} />;
