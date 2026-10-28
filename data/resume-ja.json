@@ -3,7 +3,7 @@
   "basics": {
     "name": "Dee / Dave Minion（みにどん）",
     "formalName": "Kazuto Nishio",
-    "label": "フルスタック勤労学生",
+    "label": "西尾 一斗",
     "image": "https://avatars.githubusercontent.com/u/48941476?v=4",
     "email": "contact@mndn.dev",
     "phone": "",
@@ -86,9 +86,7 @@
       "startDate": "2022-07-17",
       "endDate": "2024-09-25",
       "summary": "1か月間で約2,000人のユーザーを集客し、ゲームサーバーを運営しておりました。サーバーの企画・構築・運用に加え、SNS等を活用した集客、コミュニティ管理、安定稼働のための保守対応まで一貫して行いました。",
-      "highlights": [
-        "Minecraft"
-      ]
+      "highlights": ["Minecraft"]
     },
     {
       "name": "システム開発等",
@@ -99,29 +97,23 @@
       "startDate": "2019-04-01",
       "endDate": "2025-03-31",
       "summary": "これまでPMを含め、任意団体にて300件以上のシステム開発プロジェクトに参画してきました。要件定義から設計・開発・運用まで、プロジェクト全体を見据えた開発推進に携わってきました。",
-      "highlights": [
-        "フルスタック開発"
-      ]
+      "highlights": ["フルスタック開発"]
     }
   ],
   "volunteer": [
     {
-      "organization": "団体は秘密です",
+      "organization": "部活動（吹奏楽）",
       "position": "",
       "url": "#",
-      "summary": "3D-CGやアニメーションを用いて、コンサートのバックスクリーン映像の制作、演出・脚本を行いました。。",
-      "highlights": [
-        "映像制作"
-      ]
+      "summary": "3D-CGやアニメーションを用いて、コンサートのバックスクリーン映像の制作、演出・脚本を行いました。",
+      "highlights": ["映像制作"]
     },
     {
       "organization": "The Community",
       "position": "",
       "url": "#",
       "summary": "中高生約100名程度にプログラミングを教えていました。",
-      "highlights": [
-        "プログラミング"
-      ]
+      "highlights": ["プログラミング"]
     }
   ],
   "education": [
@@ -162,29 +154,15 @@
   "skills": [
     {
       "name": "プログラミング",
-      "keywords": [
-        "Web",
-        "フロントエンド",
-        "バックエンド",
-        "モバイルアプリ"
-      ]
+      "keywords": ["Web", "フロントエンド", "バックエンド", "モバイルアプリ"]
     },
     {
       "name": "サーバー構築・運用・保守",
-      "keywords": [
-        "Linux",
-        "ラックサーバー",
-        "ネットワーク",
-        "セキュリティ"
-      ]
+      "keywords": ["Linux", "ラックサーバー", "ネットワーク", "セキュリティ"]
     },
     {
       "name": "楽器",
-      "keywords": [
-        "ピアノ",
-        "サクソフォン",
-        "吹奏楽"
-      ]
+      "keywords": ["ピアノ", "サクソフォン", "吹奏楽"]
     }
   ],
   "languages": [
@@ -215,9 +193,7 @@
       "date": "06/03/2024",
       "image": "/gallery/servers-overview.webp",
       "url": "#",
-      "tags": [
-        "rack-server"
-      ],
+      "tags": ["rack-server"],
       "tagLabels": {
         "rack-server": "ラックサーバー"
       }
@@ -229,9 +205,7 @@
       "image": "/gallery/servers-01.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "rack-server"
-      ],
+      "tags": ["rack-server"],
       "tagLabels": {
         "rack-server": "ラックサーバー"
       }
@@ -243,9 +217,7 @@
       "image": "/gallery/servers-02.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "rack-server"
-      ],
+      "tags": ["rack-server"],
       "tagLabels": {
         "rack-server": "ラックサーバー"
       }
@@ -257,9 +229,7 @@
       "image": "/gallery/servers-03.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "network"
-      ],
+      "tags": ["network"],
       "tagLabels": {
         "network": "ネットワーク"
       }
@@ -270,9 +240,7 @@
       "date": "31/01/2024",
       "image": "/gallery/poweredge-r340.webp",
       "url": "#",
-      "tags": [
-        "rack-server"
-      ],
+      "tags": ["rack-server"],
       "tagLabels": {
         "rack-server": "ラックサーバー"
       }
@@ -284,10 +252,7 @@
       "image": "/gallery/servers-new.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "rack-server",
-        "network"
-      ],
+      "tags": ["rack-server", "network"],
       "tagLabels": {
         "rack-server": "ラックサーバー",
         "network": "ネットワーク"
@@ -299,11 +264,7 @@
       "date": "06/03/2024",
       "image": "/gallery/nightview-01.mp4",
       "url": "#",
-      "tags": [
-        "rack-server",
-        "night-view",
-        "video"
-      ],
+      "tags": ["rack-server", "night-view", "video"],
       "tagLabels": {
         "rack-server": "ラックサーバー",
         "night-view": "夜景",
@@ -316,11 +277,7 @@
       "date": "08/02/2024",
       "image": "/gallery/nightview-02.mp4",
       "url": "#",
-      "tags": [
-        "rack-server",
-        "night-view",
-        "video"
-      ],
+      "tags": ["rack-server", "night-view", "video"],
       "tagLabels": {
         "rack-server": "ラックサーバー",
         "night-view": "夜景",
@@ -333,9 +290,7 @@
       "date": "28/12/2022",
       "image": "/gallery/servers-initial.webp",
       "url": "#",
-      "tags": [
-        "rack-server"
-      ],
+      "tags": ["rack-server"],
       "tagLabels": {
         "rack-server": "ラックサーバー"
       }
@@ -346,9 +301,7 @@
       "date": "17/04/2025",
       "image": "/gallery/research.webp",
       "url": "#",
-      "tags": [
-        "research"
-      ],
+      "tags": ["research"],
       "tagLabels": {
         "research": "研究"
       }
@@ -362,34 +315,23 @@
         "シフトをまとめて管理し、勤務予定をもとに給与を計算。",
         "この先数カ月間の収支をシミュレーションし、お金の見通しを可視化。",
         "クレジットカードの引き落とし前に、残高の見通しを確認。",
-        "[https://app.shift-note.jp/demo](https://app.shift-note.jp/demo)"
+        "体験版：[https://app.shift-note.jp/demo](https://app.shift-note.jp/demo)"
       ],
-      "keywords": [],
+      "keywords": ["GCP", "Supabase", "Kotlin"],
       "startDate": "2026-09-01",
       "url": "https://www.shift-note.jp/",
-      "roles": [
-        "開発者"
-      ],
+      "roles": ["開発者"],
       "entity": "",
       "type": "application"
     },
     {
       "name": "よくわからないモバイルアプリ",
       "description": "なんとなく見切り発車してしまいましたが、とりあえずLPだけ置いておきます。 https://kabemie.com/",
-      "highlights": [
-        "要件定義してる最中",
-        "https://kabemie.com/"
-      ],
-      "keywords": [
-        "iOS",
-        "Android",
-        "Kotlin Multiplatform"
-      ],
+      "highlights": ["要件定義してる最中", "https://kabemie.com/"],
+      "keywords": ["iOS", "Android", "Kotlin Multiplatform"],
       "startDate": "2026-05-22",
       "url": "https://kabemie.com/",
-      "roles": [
-        "開発者"
-      ],
+      "roles": ["開発者"],
       "entity": "",
       "type": "application"
     },
@@ -400,16 +342,11 @@
         "Meta Quest 3を用いてMR空間上に暗号化されたデータをブロック化",
         "没入型アプローチにより直感的かつ効果的なデータ復元を支援"
       ],
-      "keywords": [
-        "Meta Quest 3",
-        "AES"
-      ],
+      "keywords": ["Meta Quest 3", "AES"],
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
       "url": "#",
-      "roles": [
-        "研究インターン"
-      ],
+      "roles": ["研究インターン"],
       "entity": "",
       "type": "application"
     }

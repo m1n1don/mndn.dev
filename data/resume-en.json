@@ -86,9 +86,7 @@
       "startDate": "2022-07-17",
       "endDate": "2024-09-25",
       "summary": "I operated a game server that attracted around 2,000 users in one month. I handled the full cycle, from planning, building, and operating the server to attracting users through social media, managing the community, and maintaining stable operations.",
-      "highlights": [
-        "Minecraft"
-      ]
+      "highlights": ["Minecraft"]
     },
     {
       "name": "System Development and Related Work",
@@ -99,9 +97,7 @@
       "startDate": "2019-04-01",
       "endDate": "2025-03-31",
       "summary": "Including work as a project manager, I have participated in more than 300 system development projects through voluntary organizations. I have been involved in driving development with the whole project in view, from requirements definition through design, development, and operations.",
-      "highlights": [
-        "Full-Stack Development"
-      ]
+      "highlights": ["Full-Stack Development"]
     }
   ],
   "volunteer": [
@@ -110,18 +106,14 @@
       "position": "",
       "url": "#",
       "summary": "Using 3D CG and animation, I produced back-screen concert visuals and worked on direction and scripting.",
-      "highlights": [
-        "Video Production"
-      ]
+      "highlights": ["Video Production"]
     },
     {
       "organization": "The Community",
       "position": "",
       "url": "#",
       "summary": "I taught programming to around 100 junior and senior high school students.",
-      "highlights": [
-        "Programming"
-      ]
+      "highlights": ["Programming"]
     }
   ],
   "education": [
@@ -162,29 +154,15 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Web",
-        "Frontend",
-        "Backend",
-        "Mobile Apps"
-      ]
+      "keywords": ["Web", "Frontend", "Backend", "Mobile Apps"]
     },
     {
       "name": "Server Setup, Operations, and Maintenance",
-      "keywords": [
-        "Linux",
-        "Rack Servers",
-        "Network",
-        "Security"
-      ]
+      "keywords": ["Linux", "Rack Servers", "Network", "Security"]
     },
     {
       "name": "Instruments",
-      "keywords": [
-        "Piano",
-        "Saxophone",
-        "Wind Music"
-      ]
+      "keywords": ["Piano", "Saxophone", "Wind Music"]
     }
   ],
   "languages": [
@@ -215,9 +193,7 @@
       "date": "06/03/2024",
       "image": "/gallery/servers-overview.webp",
       "url": "#",
-      "tags": [
-        "rack-server"
-      ]
+      "tags": ["rack-server"]
     },
     {
       "title": "Home Server #1",
@@ -226,9 +202,7 @@
       "image": "/gallery/servers-01.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "rack-server"
-      ]
+      "tags": ["rack-server"]
     },
     {
       "title": "Home Server #2",
@@ -237,9 +211,7 @@
       "image": "/gallery/servers-02.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "rack-server"
-      ]
+      "tags": ["rack-server"]
     },
     {
       "title": "Home Server #3",
@@ -248,9 +220,7 @@
       "image": "/gallery/servers-03.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "network"
-      ]
+      "tags": ["network"]
     },
     {
       "title": "PowerEdge R340",
@@ -258,9 +228,7 @@
       "date": "31/01/2024",
       "image": "/gallery/poweredge-r340.webp",
       "url": "#",
-      "tags": [
-        "rack-server"
-      ]
+      "tags": ["rack-server"]
     },
     {
       "title": "New Home Server Setup",
@@ -269,10 +237,7 @@
       "image": "/gallery/servers-new.webp",
       "showOnHome": true,
       "url": "#",
-      "tags": [
-        "rack-server",
-        "network"
-      ]
+      "tags": ["rack-server", "network"]
     },
     {
       "title": "Home Server Night View #1",
@@ -280,11 +245,7 @@
       "date": "06/03/2024",
       "image": "/gallery/nightview-01.mp4",
       "url": "#",
-      "tags": [
-        "rack-server",
-        "night-view",
-        "video"
-      ]
+      "tags": ["rack-server", "night-view", "video"]
     },
     {
       "title": "Home Server Night View #2",
@@ -292,11 +253,7 @@
       "date": "08/02/2024",
       "image": "/gallery/nightview-02.mp4",
       "url": "#",
-      "tags": [
-        "rack-server",
-        "night-view",
-        "video"
-      ]
+      "tags": ["rack-server", "night-view", "video"]
     },
     {
       "title": "An Early Server",
@@ -304,9 +261,7 @@
       "date": "28/12/2022",
       "image": "/gallery/servers-initial.webp",
       "url": "#",
-      "tags": [
-        "rack-server"
-      ]
+      "tags": ["rack-server"]
     },
     {
       "title": "Unity",
@@ -314,9 +269,7 @@
       "date": "17/04/2025",
       "image": "/gallery/research.webp",
       "url": "#",
-      "tags": [
-        "research"
-      ]
+      "tags": ["research"]
     }
   ],
   "projects": [
@@ -329,32 +282,21 @@
         "Check your projected balance ahead of credit card payments.",
         "[https://app.shift-note.jp/demo](https://app.shift-note.jp/demo)"
       ],
-      "keywords": [],
+      "keywords": ["GCP", "Supabase", "Kotlin"],
       "startDate": "2026-09-01",
       "url": "https://www.shift-note.jp/",
-      "roles": [
-        "Developer"
-      ],
+      "roles": ["Developer"],
       "entity": "",
       "type": "application"
     },
     {
       "name": "Some Kind of Mobile App",
       "description": "I more or less started this before fully figuring it out, but for now I have put up a landing page: https://kabemie.com/",
-      "highlights": [
-        "Still defining the requirements",
-        "https://kabemie.com/"
-      ],
-      "keywords": [
-        "iOS",
-        "Android",
-        "Kotlin Multiplatform"
-      ],
+      "highlights": ["Still defining the requirements", "https://kabemie.com/"],
+      "keywords": ["iOS", "Android", "Kotlin Multiplatform"],
       "startDate": "2026-05-22",
       "url": "https://kabemie.com/",
-      "roles": [
-        "Developer"
-      ],
+      "roles": ["Developer"],
       "entity": "",
       "type": "application"
     },
@@ -365,16 +307,11 @@
         "Creating block-based representations of encrypted data in MR space with Meta Quest 3.",
         "Supporting intuitive and effective data restoration through an immersive approach."
       ],
-      "keywords": [
-        "Meta Quest 3",
-        "AES"
-      ],
+      "keywords": ["Meta Quest 3", "AES"],
       "startDate": "2025-04-14",
       "endDate": "2025-05-14",
       "url": "#",
-      "roles": [
-        "Research Internship"
-      ],
+      "roles": ["Research Internship"],
       "entity": "",
       "type": "application"
     }
