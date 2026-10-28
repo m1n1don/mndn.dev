@@ -3,11 +3,12 @@ export function isFormalView() {
 }
 
 export function appendViewMode(path: string) {
-  if (!isFormalView()) return path;
+  const mode = new URLSearchParams(global.location.search).get('type');
+  if (mode !== 'formal' && mode !== 'cv') return path;
 
   const [pathname, query = ''] = path.split('?');
   const params = new URLSearchParams(query);
-  params.set('type', 'formal');
+  params.set('type', mode);
 
   return `${pathname}?${params.toString()}`;
 }
