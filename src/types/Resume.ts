@@ -65,6 +65,7 @@ export type ResumeVolunteer = {
 
 export type ResumeEducation = {
   institution: string;
+  formalInstitution?: string;
   url: string;
   area: string;
   startDate: string;
